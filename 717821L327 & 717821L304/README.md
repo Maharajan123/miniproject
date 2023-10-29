@@ -5,12 +5,11 @@ The Product Delivery Management System is a Java-based application that provides
 ## Contributors
 
 - MAHARAJAN M (717821L327)
-- ARUN V (717821L304)
 
 ## Features
 
-- Add new Order with details like Customer id,Customer name,Product id,Product name,Ordered date,Delivery date,status and more.
-- Update the details of existing Orders, including their Ordered date,Delivery date,status and other attributes.
+- Add new Orders with details like customer ID, Customer name, product ID, Product name, Order date, Delivery date, status, and more.
+- Update the details of existing Orders, including their Ordered date, Delivery date, status, and other attributes.
 - Delete Orders from the system based on their unique ID and Status of the Ordered product.
 - View all Orders stored in the database, displaying their complete information.
 - Interactive console menu for easy navigation and user-friendly experience.
@@ -25,10 +24,10 @@ The Product Delivery Management System is a Java-based application that provides
 
 - `com.kce.bean`: Contains the `Customer` class representing the entity for a Customer with its attributes and getter/setter methods.
                   Contains the `Product` class representing the entity for a Product with its attributes and getter/setter methods.
-                  Contains the `Order` class representing the entity for a Orders with its attributes and getter/setter methods.
+                  Contains the `Order` class representing the entity for an Order with its attributes and getter/setter methods.
 - `com.kce.dao`: Provides the `crud` class that handles the database operations for Orders, including adding, updating, deleting, and retrieving Ordered product details.
 - `com.kce.util`: Includes the `DBUtil` class responsible for establishing the database connection and closing it when necessary.
-                  Includes the `customerException` class responsible for handling the exception and it is an user defined exception.
+                  Includes the `customerException` class responsible for handling the exception and it is a user-defined exception.
 - `com.kce.service`: Contains the `Main` class, the main class that implements the Product delivery management system functionality, including the user interface and interaction with the           `crud`.
 
 ## Usage
